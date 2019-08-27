@@ -152,8 +152,7 @@ h5 {
   border-radius: 25px;
   margin-left: 5%;
   margin-top: -4%;
-  height: 855px;
-  width: 915px;
+  width: 800px;
   padding-bottom: 50%;
 }
 body {
@@ -166,7 +165,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  margin-right: -55%;
+  margin-right: -30%;
   margin-bottom: -3%;
 }
 nav a {
@@ -188,19 +187,25 @@ nav a {
 }
 .header {
   display: flex;
-  justify-content: center;
-  margin-left: -10%;
-  margin-top: 3%;
+  justify-content: flex-start;
+  margin-left: 2%;
+  margin-top: 5%;
 }
 .sign {
-  width: 473px;
-  font-size: 1.9rem;
-  margin-left: 10%;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 80%;
   font-weight: bold;
   margin-top: 10%;
 }
+.sign h1 {
+  width: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+}
 .button {
-  margin-left: 20%;
+  margin-left: 10%;
   background-color: #0036CC;
   color: white;
   height: 61px;
@@ -208,6 +213,12 @@ nav a {
   border-radius: 7px;
   font-weight: bold;
   font-size: 30px;
+}
+.worker {
+  margin-top: -25%;
+  margin-left: 57%;
+  border-radius: 10px;
+  width: 40%;
 }
 .toprow {
   display: flex;
