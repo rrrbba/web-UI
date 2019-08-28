@@ -306,8 +306,6 @@ h5 {
   font-size: 1.2rem;
   line-height: 24px;
   margin-top: -5%;
-  background-color: #FFFFCC;
-  border: 1px solid #979797;
 }
 .answerthree {
   height: 48px;
@@ -315,13 +313,6 @@ h5 {
   font-size: 1.2rem;
   line-height: 24px;
   margin-top: -5%;
-}
-.signtwo {
-  width: 473px;
-  font-size: 1.9rem;
-  margin-left: 10%;
-  font-weight: bold;
-  margin-top: 1%;
 }
 .bottominfo {
   margin-top: 10%;
@@ -405,6 +396,18 @@ h5 {
   background-color: white;
   color: #0036CC;
 }
+.signtwo {
+  width: 100%;
+  font-size: 1.9rem;
+  margin-left: 50%;
+  font-weight: bold;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  text-decoration: underline;
+}
 .jacob {
   display: flex;
   flex-flow: row;
@@ -414,14 +417,15 @@ h5 {
   display: flex;
   flex-flow: row;
   width: 200%;
-  margin-right: -3%;
+  margin-right: 1%;
   font-size: 1.2rem;
   font-weight: bold;
 }
 .jacob .jacobpic {
-  width: 14%;
+  width: 18%;
   margin-left: 10%;
   margin-right: 5%;
+  border-radius: 5px;
 }
 .jacob p {
   display: flex;
@@ -430,7 +434,7 @@ h5 {
   font-size: 1.2rem;
   width: 200%;
   margin-top: 4%;
-  margin-left: -69%;
+  margin-left: -68%;
 }
 .rayven {
   display: flex;
@@ -445,18 +449,19 @@ h5 {
   font-weight: bold;
 }
 .rayven .rayvenpic {
-  width: 12%;
+  width: 18%;
   margin-right: 5%;
   margin-left: 10%;
+  border-radius: 5px;
 }
 .rayven p {
   display: flex;
   flex-flow: wrap;
   margin-top: 2%;
   font-size: 1.2rem;
-  width: 200%;
+  width: 180%;
   margin-top: 4%;
-  margin-left: -70%;
+  margin-left: -71%;
 }
 .van {
   display: flex;
@@ -467,23 +472,54 @@ h5 {
   display: flex;
   flex-flow: row;
   width: 200%;
-  margin-right: -3%;
+  margin-right: -2%;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-left: -5%;
 }
 .van .vanpic {
-  width: 13%;
-  margin-left: 9%;
-  margin-right: 5%;
+  width: 18%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
 }
 .van p {
   display: flex;
   flex-flow: wrap;
   margin-top: 2%;
   font-size: 1.2rem;
-  width: 200%;
+  width: 181%;
   margin-top: 4%;
-  margin-left: -70%;
+  margin-left: -72%;
+}
+.sam {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.sam h2 {
+  display: flex;
+  flex-flow: row;
+  width: 195%;
+  margin-right: -4%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -12%;
+}
+.sam .sampic {
+  width: 45%;
+  margin-left: 11%;
+  margin-right: 18%;
+  border-radius: 5px;
+}
+.sam p {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 181%;
+  margin-top: 4%;
+  margin-left: -66%;
 }
 .jon {
   display: flex;
@@ -497,11 +533,13 @@ h5 {
   margin-right: -3%;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-left: -3%;
 }
 .jon .jonpic {
-  width: 16%;
+  width: 23%;
   margin-left: 8%;
-  margin-right: 5%;
+  margin-right: 8%;
+  border-radius: 5px;
 }
 .jon p {
   display: flex;
@@ -510,5 +548,121 @@ h5 {
   font-size: 1.2rem;
   width: 200%;
   margin-top: 4%;
-  margin-left: -70%;
+  margin-left: -60%;
+}
+.tania {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.tania h2 {
+  display: flex;
+  flex-flow: row;
+  width: 200%;
+  margin-right: -3%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -3%;
+}
+.tania .tanpic {
+  width: 23%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 5px;
+}
+.tania p {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 200%;
+  margin-top: 4%;
+  margin-left: -60%;
+}
+.elvis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.elvis h2 {
+  display: flex;
+  flex-flow: row;
+  width: 200%;
+  margin-right: -3%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -2%;
+}
+.elvis .elvispic {
+  width: 23%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 5px;
+}
+.elvis p {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 200%;
+  margin-top: 4%;
+  margin-left: -60%;
+}
+.tigran {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.tigran h2 {
+  display: flex;
+  flex-flow: row;
+  width: 200%;
+  margin-right: -3%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -2%;
+}
+.tigran .tigpic {
+  width: 23%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 5px;
+}
+.tigran p {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 200%;
+  margin-top: 4%;
+  margin-left: -60%;
+}
+.scott {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.scott h2 {
+  display: flex;
+  flex-flow: row;
+  width: 200%;
+  margin-right: -3%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: -2%;
+}
+.scott .scottpic {
+  width: 23%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 5px;
+}
+.scott p {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 2%;
+  font-size: 1.2rem;
+  width: 200%;
+  margin-top: 4%;
+  margin-left: -60%;
 }
