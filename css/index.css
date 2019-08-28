@@ -141,8 +141,7 @@ h5 {
 }
 .container {
   background-color: #FEFFE5;
-  width: 1024px;
-  height: 1024px;
+  width: 800px;
   margin: 0 auto;
 }
 .info {
@@ -153,7 +152,7 @@ h5 {
   margin-left: 5%;
   margin-top: -4%;
   width: 800px;
-  padding-bottom: 50%;
+  padding-bottom: 15%;
 }
 body {
   background-color: #FEFFE5;
@@ -165,7 +164,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  margin-right: -30%;
+  margin-right: -70%;
   margin-bottom: -3%;
 }
 nav a {
@@ -189,27 +188,28 @@ nav a {
   display: flex;
   justify-content: flex-start;
   margin-left: 2%;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 .sign {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 80%;
   font-weight: bold;
   margin-top: 10%;
+  margin-bottom: 5%;
 }
 .sign h1 {
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
 }
-.button {
+.buttonone {
   margin-left: 10%;
   background-color: #0036CC;
   color: white;
-  height: 61px;
-  width: 346px;
+  height: 60px;
+  width: 300px;
   border-radius: 7px;
   font-weight: bold;
   font-size: 30px;
@@ -238,8 +238,8 @@ nav a {
   margin-top: 4%;
 }
 .box {
-  height: 95px;
-  width: 206px;
+  height: 80px;
+  width: 200px;
   background-color: #000E33;
   color: #FFFFE3;
   font-size: 1rem;
@@ -247,10 +247,11 @@ nav a {
 }
 h4 {
   color: #FFFFE3;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 34px;
   padding-left: 8%;
   padding-top: 5%;
+  margin-left: 8%;
 }
 .yes {
   display: flex;
@@ -259,16 +260,27 @@ h4 {
 }
 h5 {
   margin-right: 10%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .toprow h5 {
   margin-left: -25%;
 }
 .toparrow {
   margin-left: -2%;
+  height: 10%;
+  width: 20%;
+  margin-top: 2%;
 }
 .middlearrow {
   margin-left: -4%;
+  height: 10%;
+  width: 20%;
+  margin-top: 2%;
+}
+.bottomarrow {
+  height: 10%;
+  width: 20%;
+  margin-top: 2%;
 }
 .middlerow h5 {
   margin-left: -47%;
@@ -281,18 +293,21 @@ h5 {
   width: 144px;
   font-size: 1.2rem;
   line-height: 24px;
+  margin-top: -5%;
 }
 .answertwo {
   height: 48px;
   width: 108px;
   font-size: 1.2rem;
   line-height: 24px;
+  margin-top: -5%;
 }
 .answerthree {
   height: 48px;
   width: 165px;
   font-size: 1.2rem;
   line-height: 24px;
+  margin-top: -5%;
 }
 .signtwo {
   width: 473px;
@@ -300,6 +315,67 @@ h5 {
   margin-left: 10%;
   font-weight: bold;
   margin-top: 1%;
+}
+.bottominfo {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+.bottominfo .take {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+.bottominfo .bottomtop {
+  display: flex;
+  padding-bottom: 5%;
+}
+.bottominfo .bottomtop p {
+  display: flex;
+  flex-flow: wrap;
+  padding: 2%;
+  font-size: 1.4rem;
+}
+.bottominfo .bottomtop .blank {
+  border-radius: 5px;
+}
+.bottominfo .bottommiddle {
+  display: flex;
+  padding-bottom: 5%;
+}
+.bottominfo .bottommiddle p {
+  display: flex;
+  flex-flow: wrap;
+  padding: 2%;
+  font-size: 1.4rem;
+}
+.bottominfo .bottommiddle .blank {
+  border-radius: 5px;
+}
+.bottominfo .bottombottom {
+  display: flex;
+  padding-bottom: 5%;
+}
+.bottominfo .bottombottom p {
+  display: flex;
+  flex-flow: wrap;
+  padding: 2%;
+  font-size: 1.4rem;
+}
+.bottominfo .bottombottom .blank {
+  border-radius: 5px;
+}
+.bottominfo .buttontwo {
+  margin-left: 10%;
+  background-color: #0036CC;
+  color: white;
+  height: 60px;
+  width: 300px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 28%;
 }
 .rayven {
   display: flex;
