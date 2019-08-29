@@ -13,6 +13,11 @@
     font-weight: bold;
     margin-top: 10%;
     margin-bottom: 5%;
+    @media @phone{
+        width: 100%;
+        margin-left: 17%;
+        margin-top: -1%;
+    }
     
 }
 
@@ -24,6 +29,9 @@
 }
 .buttonone{
   .button();
+  @media @phone{
+      margin-left: 25%;
+  }
 }
 
 .worker{
@@ -31,6 +39,9 @@
     margin-left: 57%;
     border-radius: 10px;
     width: 40%;
+    @media @phone{
+        display: none;
+    }
 }
 
 
@@ -40,18 +51,31 @@
     justify-content: space-evenly;
     margin-top: 10%;
     margin-left: -2%;
+    @media @phone{
+        width: 80%;
+        margin-left: -2%;
+    }
 }
 .middlerow{
     display: flex;
     justify-content: space-evenly;
     margin-top: 4%;
     margin-left: -4%;
+    @media @phone{
+        width: 100%;
+        margin-left: -13%;
+    
+    }
+   
 }
 .bottomrow{
     display: flex;
     justify-content: space-evenly;
     margin-top: 4%;
-    
+    @media @phone{
+        width: 100%;
+        margin-left: -13%;
+    }
 }
 .box{
     height: 80px;	
@@ -60,6 +84,10 @@
     color: #FFFFE3;
     font-size: 1rem;	
     line-height: 34px;
+    @media @phone{
+        width: 100pt;
+        margin-left: -5%;
+    }
 
 }
 
@@ -70,21 +98,35 @@ h4{
     padding-left: 8%;
     padding-top: 5%;
     margin-left: 8%;
+    @media @phone{
+        font-size: 90%;
+    }
 }
 
 .yes{
     display: flex;
     justify-content: space-evenly;
     margin-top: 3%;
+    @media @phone{
+        // width: 37pt;
+        font-size: 1rem;
+        margin-right: -40%;
+    }
 }
 
 h5{
     margin-right: 10%;
     font-size: 1.5rem;
+    @media @phone{
+        width: 20%;
+    }
 }
 
 .toprow h5{
     margin-left: -25%;
+    @media @phone{
+        margin-right: 35%;
+    }
 }
 
 .toparrow{
@@ -92,6 +134,11 @@ h5{
     height: 10%;
     width: 20%;
     margin-top: 2%;
+    @media @phone{
+        width: 45pt;
+        margin-right: 5%;
+        margin-left: 1%;
+    }
 }
 
 .middlearrow{
@@ -99,20 +146,37 @@ h5{
     height: 10%;
     width: 20%;
     margin-top: 2%;
+    @media @phone{
+        width: 45pt;
+        margin-left: -12%;
+        // margin-right:30%;
+    }
 }
 
 .bottomarrow{
     height: 10%;
     width: 20%;
     margin-top: 2%;
+    @media @phone{
+        width: 45pt;
+        margin-left: -10%;
+    }
 }
 
 .middlerow h5{
     margin-left: -47%;
+    @media @phone{
+        margin-right: 100%;
+        
+    }
+   
 }
 
 .bottomrow h5{
     margin-left: -15%;
+    @media @phone{
+        margin-left: -55%;
+    }
 }
 
 .answerone{
@@ -121,6 +185,10 @@ h5{
     font-size: 1.2rem;	
     line-height: 24px;
     margin-top: -5%;
+    @media @phone{
+        width: 87pt;
+        font-size: 75%;
+    }
 }
 
 .answertwo{
@@ -129,6 +197,11 @@ h5{
     font-size: 1.2rem;	
     line-height: 24px;
     margin-top: -5%;
+    @media @phone{
+        width: 87pt;
+        font-size: 75%;
+        margin-left: -80%;
+    }
 }
 
 .answerthree{
@@ -137,6 +210,12 @@ h5{
     font-size: 1.2rem;	
     line-height: 24px;
     margin-top: -5%;
+    @media @phone{
+        width: 87pt;
+        font-size: 75%;
+        
+        
+    }
 }
 
 
@@ -146,16 +225,21 @@ h5{
     margin-top: 10%;
     margin-left:5%;
     width: 90%;
+  
     .take{
         display: flex;
         justify-content: center;
         font-size: 2rem;
         padding-bottom: 5%;
         text-decoration: underline;
+        @media @phone{
+            font-size: 1.5rem;
+        }
     }
     .bottomtop{
         display: flex;
         padding-bottom: 5%;
+       
         p{
             display:flex;
             flex-flow: wrap;
@@ -166,6 +250,9 @@ h5{
             border: 1px solid #979797;
             border-radius: 1px;
             margin-left: 2%;
+            @media @phone{
+                font-size: 1.1rem;
+            }
         }
         .blank{
             border-radius: 5px;
@@ -184,6 +271,9 @@ h5{
             border: 1px solid #979797;
             border-radius: 1px;
             margin-right: 2%;
+            @media @phone{
+                font-size: 1.1rem;
+            }
         }
         .blank{
             border-radius: 5px;
@@ -202,6 +292,9 @@ h5{
             border: 1px solid #979797;
             border-radius: 1px;
             margin-left: 2%;
+            @media @phone{
+                font-size: 1.1rem;
+            }
         }
         .blank{
             border-radius: 5px;
@@ -210,6 +303,9 @@ h5{
     .buttontwo{
         .button();
         margin-left: 28%;
+        @media @phone{
+            display: none;
+        }
     }
 
 }

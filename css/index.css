@@ -164,6 +164,7 @@ h5 {
   .info {
     width: 500px;
     margin: auto 0;
+    border: none;
   }
 }
 body {
@@ -180,9 +181,8 @@ body {
 }
 @media  (max-width: 500px) {
   .top-nav {
-    width: 500px;
-    display: flex;
-    flex-flow: column;
+    width: 376pt;
+    margin-left: -1%;
   }
 }
 nav {
@@ -193,11 +193,12 @@ nav {
 }
 @media  (max-width: 500px) {
   nav {
-    width: 500px;
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin-bottom: 10%;
+    flex-direction: row-reverse;
+    width: 103%;
+    margin-top: 5%;
+    border-bottom: 1pt solid grey;
+    padding-bottom: 2%;
   }
 }
 nav a {
@@ -214,10 +215,12 @@ nav a {
 }
 @media  (max-width: 500px) {
   nav a {
-    width: 500px;
-    margin-top: 5%;
-    font-size: 1.9rem;
+    width: 30%;
+    margin-right: -45%;
+    font-size: 1.1rem;
+    margin-bottom: -1%;
     padding-bottom: 5%;
+    padding-right: 10%;
   }
 }
 .logo {
@@ -227,7 +230,8 @@ nav a {
 }
 @media  (max-width: 500px) {
   .logo {
-    display: none;
+    width: 52pt;
+    margin-top: -6%;
   }
 }
 .header {
@@ -243,6 +247,13 @@ nav a {
   font-weight: bold;
   margin-top: 10%;
   margin-bottom: 5%;
+}
+@media  (max-width: 500px) {
+  .sign {
+    width: 100%;
+    margin-left: 17%;
+    margin-top: -1%;
+  }
 }
 .sign h1 {
   width: 100%;
@@ -265,11 +276,21 @@ nav a {
   background-color: white;
   color: #0036CC;
 }
+@media  (max-width: 500px) {
+  .buttonone {
+    margin-left: 25%;
+  }
+}
 .worker {
   margin-top: -25%;
   margin-left: 57%;
   border-radius: 10px;
   width: 40%;
+}
+@media  (max-width: 500px) {
+  .worker {
+    display: none;
+  }
 }
 .toprow {
   display: flex;
@@ -277,16 +298,34 @@ nav a {
   margin-top: 10%;
   margin-left: -2%;
 }
+@media  (max-width: 500px) {
+  .toprow {
+    width: 80%;
+    margin-left: -2%;
+  }
+}
 .middlerow {
   display: flex;
   justify-content: space-evenly;
   margin-top: 4%;
   margin-left: -4%;
 }
+@media  (max-width: 500px) {
+  .middlerow {
+    width: 100%;
+    margin-left: -13%;
+  }
+}
 .bottomrow {
   display: flex;
   justify-content: space-evenly;
   margin-top: 4%;
+}
+@media  (max-width: 500px) {
+  .bottomrow {
+    width: 100%;
+    margin-left: -13%;
+  }
 }
 .box {
   height: 80px;
@@ -296,6 +335,12 @@ nav a {
   font-size: 1rem;
   line-height: 34px;
 }
+@media  (max-width: 500px) {
+  .box {
+    width: 100pt;
+    margin-left: -5%;
+  }
+}
 h4 {
   color: #FFFFE3;
   font-size: 1.2rem;
@@ -304,17 +349,38 @@ h4 {
   padding-top: 5%;
   margin-left: 8%;
 }
+@media  (max-width: 500px) {
+  h4 {
+    font-size: 90%;
+  }
+}
 .yes {
   display: flex;
   justify-content: space-evenly;
   margin-top: 3%;
 }
+@media  (max-width: 500px) {
+  .yes {
+    font-size: 1rem;
+    margin-right: -40%;
+  }
+}
 h5 {
   margin-right: 10%;
   font-size: 1.5rem;
 }
+@media  (max-width: 500px) {
+  h5 {
+    width: 20%;
+  }
+}
 .toprow h5 {
   margin-left: -25%;
+}
+@media  (max-width: 500px) {
+  .toprow h5 {
+    margin-right: 35%;
+  }
 }
 .toparrow {
   margin-left: -2%;
@@ -322,22 +388,51 @@ h5 {
   width: 20%;
   margin-top: 2%;
 }
+@media  (max-width: 500px) {
+  .toparrow {
+    width: 45pt;
+    margin-right: 5%;
+    margin-left: 1%;
+  }
+}
 .middlearrow {
   margin-left: -4%;
   height: 10%;
   width: 20%;
   margin-top: 2%;
 }
+@media  (max-width: 500px) {
+  .middlearrow {
+    width: 45pt;
+    margin-left: -12%;
+  }
+}
 .bottomarrow {
   height: 10%;
   width: 20%;
   margin-top: 2%;
 }
+@media  (max-width: 500px) {
+  .bottomarrow {
+    width: 45pt;
+    margin-left: -10%;
+  }
+}
 .middlerow h5 {
   margin-left: -47%;
 }
+@media  (max-width: 500px) {
+  .middlerow h5 {
+    margin-right: 100%;
+  }
+}
 .bottomrow h5 {
   margin-left: -15%;
+}
+@media  (max-width: 500px) {
+  .bottomrow h5 {
+    margin-left: -55%;
+  }
 }
 .answerone {
   height: 48px;
@@ -346,6 +441,12 @@ h5 {
   line-height: 24px;
   margin-top: -5%;
 }
+@media  (max-width: 500px) {
+  .answerone {
+    width: 87pt;
+    font-size: 75%;
+  }
+}
 .answertwo {
   height: 48px;
   width: 108px;
@@ -353,12 +454,25 @@ h5 {
   line-height: 24px;
   margin-top: -5%;
 }
+@media  (max-width: 500px) {
+  .answertwo {
+    width: 87pt;
+    font-size: 75%;
+    margin-left: -80%;
+  }
+}
 .answerthree {
   height: 48px;
   width: 165px;
   font-size: 1.2rem;
   line-height: 24px;
   margin-top: -5%;
+}
+@media  (max-width: 500px) {
+  .answerthree {
+    width: 87pt;
+    font-size: 75%;
+  }
 }
 .bottominfo {
   margin-top: 10%;
@@ -371,6 +485,11 @@ h5 {
   font-size: 2rem;
   padding-bottom: 5%;
   text-decoration: underline;
+}
+@media  (max-width: 500px) {
+  .bottominfo .take {
+    font-size: 1.5rem;
+  }
 }
 .bottominfo .bottomtop {
   display: flex;
@@ -386,6 +505,11 @@ h5 {
   border: 1px solid #979797;
   border-radius: 1px;
   margin-left: 2%;
+}
+@media  (max-width: 500px) {
+  .bottominfo .bottomtop p {
+    font-size: 1.1rem;
+  }
 }
 .bottominfo .bottomtop .blank {
   border-radius: 5px;
@@ -405,6 +529,11 @@ h5 {
   border-radius: 1px;
   margin-right: 2%;
 }
+@media  (max-width: 500px) {
+  .bottominfo .bottommiddle p {
+    font-size: 1.1rem;
+  }
+}
 .bottominfo .bottommiddle .blank {
   border-radius: 5px;
 }
@@ -422,6 +551,11 @@ h5 {
   border: 1px solid #979797;
   border-radius: 1px;
   margin-left: 2%;
+}
+@media  (max-width: 500px) {
+  .bottominfo .bottombottom p {
+    font-size: 1.1rem;
+  }
 }
 .bottominfo .bottombottom .blank {
   border-radius: 5px;
@@ -441,6 +575,11 @@ h5 {
 .bottominfo .buttontwo:hover {
   background-color: white;
   color: #0036CC;
+}
+@media  (max-width: 500px) {
+  .bottominfo .buttontwo {
+    display: none;
+  }
 }
 .signtwo {
   width: 100%;
