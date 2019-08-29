@@ -144,6 +144,12 @@ h5 {
   width: 800px;
   margin: 0 auto;
 }
+@media  (max-width: 500px) {
+  .container {
+    width: 500px;
+    margin: auto 0;
+  }
+}
 .info {
   margin: auto 0;
   box-sizing: border-box;
@@ -154,18 +160,45 @@ h5 {
   width: 800px;
   padding-bottom: 15%;
 }
+@media  (max-width: 500px) {
+  .info {
+    width: 500px;
+    margin: auto 0;
+  }
+}
 body {
   background-color: #FEFFE5;
+}
+@media  (max-width: 500px) {
+  body {
+    width: 500px;
+  }
 }
 .top-nav {
   margin-top: -10%;
   padding-top: 1%;
+}
+@media  (max-width: 500px) {
+  .top-nav {
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+  }
 }
 nav {
   display: flex;
   justify-content: center;
   margin-right: -70%;
   margin-bottom: -3%;
+}
+@media  (max-width: 500px) {
+  nav {
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 10%;
+  }
 }
 nav a {
   text-decoration: none;
@@ -179,10 +212,23 @@ nav a {
   justify-content: space-evenly;
   padding-top: 10%;
 }
+@media  (max-width: 500px) {
+  nav a {
+    width: 500px;
+    margin-top: 5%;
+    font-size: 1.9rem;
+    padding-bottom: 5%;
+  }
+}
 .logo {
   justify-content: flex-start;
   margin-left: 8%;
   padding-top: -20%;
+}
+@media  (max-width: 500px) {
+  .logo {
+    display: none;
+  }
 }
 .header {
   display: flex;
@@ -408,10 +454,24 @@ h5 {
   padding-top: 5%;
   text-decoration: underline;
 }
+@media  (max-width: 500px) {
+  .signtwo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}
 .jacob {
   display: flex;
   flex-flow: row;
   margin-bottom: 10%;
+}
+@media  (max-width: 500px) {
+  .jacob {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .jacob h2 {
   display: flex;
@@ -421,11 +481,25 @@ h5 {
   font-size: 1.2rem;
   font-weight: bold;
 }
+@media  (max-width: 500px) {
+  .jacob h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .jacob .jacobpic {
   width: 18%;
   margin-left: 10%;
   margin-right: 5%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .jacob .jacobpic {
+    margin-left: 35%;
+    width: 30%;
+  }
 }
 .jacob p {
   display: flex;
@@ -436,9 +510,24 @@ h5 {
   margin-top: 4%;
   margin-left: -68%;
 }
+@media  (max-width: 500px) {
+  .jacob p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .rayven {
   display: flex;
   flex-flow: row;
+}
+@media  (max-width: 500px) {
+  .rayven {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .rayven h2 {
   display: flex;
@@ -448,11 +537,25 @@ h5 {
   font-size: 1.2rem;
   font-weight: bold;
 }
+@media  (max-width: 500px) {
+  .rayven h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .rayven .rayvenpic {
   width: 18%;
   margin-right: 5%;
   margin-left: 10%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .rayven .rayvenpic {
+    margin-left: 35%;
+    width: 30%;
+  }
 }
 .rayven p {
   display: flex;
@@ -463,10 +566,25 @@ h5 {
   margin-top: 4%;
   margin-left: -71%;
 }
+@media  (max-width: 500px) {
+  .rayven p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .van {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .van {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .van h2 {
   display: flex;
@@ -477,11 +595,25 @@ h5 {
   font-weight: bold;
   margin-left: -5%;
 }
+@media  (max-width: 500px) {
+  .van h2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 9%;
+  }
+}
 .van .vanpic {
   width: 18%;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .van .vanpic {
+    margin-left: 37%;
+    width: 25%;
+  }
 }
 .van p {
   display: flex;
@@ -492,10 +624,25 @@ h5 {
   margin-top: 4%;
   margin-left: -72%;
 }
+@media  (max-width: 500px) {
+  .van p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 94%;
+    margin-left: 5%;
+  }
+}
 .sam {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .sam {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .sam h2 {
   display: flex;
@@ -506,11 +653,25 @@ h5 {
   font-weight: bold;
   margin-left: -12%;
 }
+@media  (max-width: 500px) {
+  .sam h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .sam .sampic {
   width: 45%;
   margin-left: 11%;
   margin-right: 18%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .sam .sampic {
+    margin-left: 40%;
+    width: 20%;
+  }
 }
 .sam p {
   display: flex;
@@ -521,10 +682,25 @@ h5 {
   margin-top: 4%;
   margin-left: -66%;
 }
+@media  (max-width: 500px) {
+  .sam p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .jon {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .jon {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .jon h2 {
   display: flex;
@@ -535,11 +711,25 @@ h5 {
   font-weight: bold;
   margin-left: -3%;
 }
+@media  (max-width: 500px) {
+  .jon h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .jon .jonpic {
   width: 23%;
   margin-left: 8%;
   margin-right: 8%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .jon .jonpic {
+    margin-left: 35%;
+    width: 35%;
+  }
 }
 .jon p {
   display: flex;
@@ -550,10 +740,25 @@ h5 {
   margin-top: 4%;
   margin-left: -60%;
 }
+@media  (max-width: 500px) {
+  .jon p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .tania {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .tania {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .tania h2 {
   display: flex;
@@ -564,11 +769,25 @@ h5 {
   font-weight: bold;
   margin-left: -3%;
 }
+@media  (max-width: 500px) {
+  .tania h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .tania .tanpic {
   width: 23%;
   margin-left: 8%;
   margin-right: 8%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .tania .tanpic {
+    margin-left: 35%;
+    width: 35%;
+  }
 }
 .tania p {
   display: flex;
@@ -579,10 +798,25 @@ h5 {
   margin-top: 4%;
   margin-left: -60%;
 }
+@media  (max-width: 500px) {
+  .tania p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .elvis {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .elvis {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .elvis h2 {
   display: flex;
@@ -593,11 +827,25 @@ h5 {
   font-weight: bold;
   margin-left: -2%;
 }
+@media  (max-width: 500px) {
+  .elvis h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .elvis .elvispic {
   width: 23%;
   margin-left: 8%;
   margin-right: 8%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .elvis .elvispic {
+    margin-left: 35%;
+    width: 35%;
+  }
 }
 .elvis p {
   display: flex;
@@ -608,10 +856,25 @@ h5 {
   margin-top: 4%;
   margin-left: -60%;
 }
+@media  (max-width: 500px) {
+  .elvis p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .tigran {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .tigran {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .tigran h2 {
   display: flex;
@@ -622,11 +885,25 @@ h5 {
   font-weight: bold;
   margin-left: -2%;
 }
+@media  (max-width: 500px) {
+  .tigran h2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 6%;
+  }
+}
 .tigran .tigpic {
   width: 23%;
   margin-left: 8%;
   margin-right: 8%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .tigran .tigpic {
+    margin-left: 35%;
+    width: 35%;
+  }
 }
 .tigran p {
   display: flex;
@@ -637,10 +914,25 @@ h5 {
   margin-top: 4%;
   margin-left: -60%;
 }
+@media  (max-width: 500px) {
+  .tigran p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
+}
 .scott {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
+}
+@media  (max-width: 500px) {
+  .scott {
+    display: flex;
+    flex-flow: column;
+  }
 }
 .scott h2 {
   display: flex;
@@ -651,11 +943,25 @@ h5 {
   font-weight: bold;
   margin-left: -2%;
 }
+@media  (max-width: 500px) {
+  .scott h2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 .scott .scottpic {
   width: 23%;
   margin-left: 8%;
   margin-right: 8%;
   border-radius: 5px;
+}
+@media  (max-width: 500px) {
+  .scott .scottpic {
+    margin-left: 35%;
+    width: 35%;
+  }
 }
 .scott p {
   display: flex;
@@ -665,4 +971,13 @@ h5 {
   width: 200%;
   margin-top: 4%;
   margin-left: -60%;
+}
+@media  (max-width: 500px) {
+  .scott p {
+    display: flex;
+    flex-flow: wrap;
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 5%;
+  }
 }
